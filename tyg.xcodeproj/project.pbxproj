@@ -21,12 +21,8 @@
 		BAAC5CBB20EB8DE300D2F84C /* tyg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAC5C9520EB833700D2F84C /* tyg.framework */; };
 		BAAC5CC220EB8F4700D2F84C /* tyg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAC5C9520EB833700D2F84C /* tyg.framework */; };
 		BAAC5CC320EB8F4700D2F84C /* tyg.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BAAC5C9520EB833700D2F84C /* tyg.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BAAC5CDC20EB9BE500D2F84C /* KeyboardTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC5CDA20EB9BD700D2F84C /* KeyboardTestViewController.swift */; };
 		BAAC5CDE20EBACE100D2F84C /* KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC5CDD20EBACE100D2F84C /* KeyboardTests.swift */; };
-		BAAC5CE020EBB27E00D2F84C /* tygUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC5CDF20EBB27E00D2F84C /* tygUITests.swift */; };
-		BAAC5CE320EBB2E700D2F84C /* tyg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAC5C9520EB833700D2F84C /* tyg.framework */; };
 		BC88958D2545CA368A8002CC /* Pods_tyg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F496B84E840F96B063BF7E5 /* Pods_tyg.framework */; };
-		D4C81AFC038499E6B1F3D83C /* Pods_tygUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74188DA0E30271C57F61867 /* Pods_tygUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,20 +41,6 @@
 			remoteInfo = tyg;
 		};
 		BAAC5CC420EB8F4700D2F84C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA4ACBF520EB828E007DA2B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BAAC5C9420EB833700D2F84C;
-			remoteInfo = tyg;
-		};
-		BAAC5CD020EB92F400D2F84C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA4ACBF520EB828E007DA2B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA4ACBFC20EB828E007DA2B6;
-			remoteInfo = "tyg-dev";
-		};
-		BAAC5CE120EBB2E300D2F84C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BA4ACBF520EB828E007DA2B6 /* Project object */;
 			proxyType = 1;
@@ -107,11 +89,7 @@
 		BAAC5CB320EB859800D2F84C /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		BAAC5CB520EB85C200D2F84C /* RandomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTests.swift; sourceTree = "<group>"; };
 		BAAC5CB920EB893000D2F84C /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
-		BAAC5CCB20EB92F400D2F84C /* tygUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tygUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAAC5CCF20EB92F400D2F84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAAC5CDA20EB9BD700D2F84C /* KeyboardTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTestViewController.swift; sourceTree = "<group>"; };
 		BAAC5CDD20EBACE100D2F84C /* KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTests.swift; sourceTree = "<group>"; };
-		BAAC5CDF20EBB27E00D2F84C /* tygUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tygUITests.swift; sourceTree = "<group>"; };
 		C74188DA0E30271C57F61867 /* Pods_tygUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tygUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFCD9EA5E666146B24D6918 /* Pods-tygTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tygTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tygTests/Pods-tygTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,15 +121,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAAC5CC820EB92F400D2F84C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BAAC5CE320EBB2E700D2F84C /* tyg.framework in Frameworks */,
-				D4C81AFC038499E6B1F3D83C /* Pods_tygUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -176,7 +145,6 @@
 				BAAC5C8F20EB82DF00D2F84C /* dev */,
 				BAAC5C9620EB833800D2F84C /* tyg */,
 				BA4ACC1420EB8290007DA2B6 /* tygTests */,
-				BAAC5CCC20EB92F400D2F84C /* tygUITests */,
 				BA4ACBFE20EB828E007DA2B6 /* Products */,
 				BAAC5CA220EB83C000D2F84C /* Frameworks */,
 				27EC3EDA88A3247C055BE014 /* Pods */,
@@ -189,7 +157,6 @@
 				BA4ACBFD20EB828E007DA2B6 /* tyg-dev.app */,
 				BA4ACC1120EB8290007DA2B6 /* tygTests.xctest */,
 				BAAC5C9520EB833700D2F84C /* tyg.framework */,
-				BAAC5CCB20EB92F400D2F84C /* tygUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,19 +223,9 @@
 			path = bond;
 			sourceTree = "<group>";
 		};
-		BAAC5CCC20EB92F400D2F84C /* tygUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BAAC5CCF20EB92F400D2F84C /* Info.plist */,
-				BAAC5CDF20EBB27E00D2F84C /* tygUITests.swift */,
-			);
-			path = tygUITests;
-			sourceTree = "<group>";
-		};
 		BAAC5CD920EB9BB900D2F84C /* view controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BAAC5CDA20EB9BD700D2F84C /* KeyboardTestViewController.swift */,
 			);
 			path = "view controllers";
 			sourceTree = "<group>";
@@ -348,28 +305,6 @@
 			productReference = BAAC5C9520EB833700D2F84C /* tyg.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BAAC5CCA20EB92F400D2F84C /* tygUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BAAC5CD220EB92F400D2F84C /* Build configuration list for PBXNativeTarget "tygUITests" */;
-			buildPhases = (
-				298225F4C223D5F4B85C32E0 /* [CP] Check Pods Manifest.lock */,
-				BAAC5CC720EB92F400D2F84C /* Sources */,
-				BAAC5CC820EB92F400D2F84C /* Frameworks */,
-				BAAC5CC920EB92F400D2F84C /* Resources */,
-				BAAC5CD720EB952B00D2F84C /* ShellScript */,
-				95234E4E7AF66ADD1F1920CB /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BAAC5CE220EBB2E300D2F84C /* PBXTargetDependency */,
-				BAAC5CD120EB92F400D2F84C /* PBXTargetDependency */,
-			);
-			name = tygUITests;
-			productName = tygUITests;
-			productReference = BAAC5CCB20EB92F400D2F84C /* tygUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -392,11 +327,6 @@
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 0940;
 					};
-					BAAC5CCA20EB92F400D2F84C = {
-						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
-						TestTargetID = BA4ACBFC20EB828E007DA2B6;
-					};
 				};
 			};
 			buildConfigurationList = BA4ACBF820EB828E007DA2B6 /* Build configuration list for PBXProject "tyg" */;
@@ -415,7 +345,6 @@
 				BAAC5C9420EB833700D2F84C /* tyg */,
 				BA4ACBFC20EB828E007DA2B6 /* tyg-dev */,
 				BA4ACC1020EB8290007DA2B6 /* tygTests */,
-				BAAC5CCA20EB92F400D2F84C /* tygUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -438,13 +367,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BAAC5C9320EB833700D2F84C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAAC5CC920EB92F400D2F84C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -484,24 +406,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-tyg-dev-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		298225F4C223D5F4B85C32E0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tygUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -548,41 +452,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95234E4E7AF66ADD1F1920CB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-tygUITests/Pods-tygUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Bond/Bond.framework",
-				"${BUILT_PRODUCTS_DIR}/Differ/Differ.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveKit/ReactiveKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bond.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differ.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tygUITests/Pods-tygUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BAAC5CD720EB952B00D2F84C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "";
-		};
 		CADD6E4F2AE5326DE45DC352 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -612,7 +481,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAAC5CDC20EB9BE500D2F84C /* KeyboardTestViewController.swift in Sources */,
 				BA4ACC0320EB828E007DA2B6 /* ViewController.swift in Sources */,
 				BA4ACC0120EB828E007DA2B6 /* AppDelegate.swift in Sources */,
 			);
@@ -637,14 +505,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAAC5CC720EB92F400D2F84C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BAAC5CE020EBB27E00D2F84C /* tygUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -662,16 +522,6 @@
 			isa = PBXTargetDependency;
 			target = BAAC5C9420EB833700D2F84C /* tyg */;
 			targetProxy = BAAC5CC420EB8F4700D2F84C /* PBXContainerItemProxy */;
-		};
-		BAAC5CD120EB92F400D2F84C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA4ACBFC20EB828E007DA2B6 /* tyg-dev */;
-			targetProxy = BAAC5CD020EB92F400D2F84C /* PBXContainerItemProxy */;
-		};
-		BAAC5CE220EBB2E300D2F84C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BAAC5C9420EB833700D2F84C /* tyg */;
-			targetProxy = BAAC5CE120EBB2E300D2F84C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -947,49 +797,6 @@
 			};
 			name = Release;
 		};
-		BAAC5CD320EB92F400D2F84C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6D19804C3BCB2B01A8FADB6 /* Pods-tygUITests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SC8T7A8Q3S;
-				INFOPLIST_FILE = tygUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.onurersel.tygUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "tyg-dev";
-			};
-			name = Debug;
-		};
-		BAAC5CD420EB92F400D2F84C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 014CB2D41BD9E454F7E8084D /* Pods-tygUITests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SC8T7A8Q3S;
-				INFOPLIST_FILE = tygUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.onurersel.tygUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "tyg-dev";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1025,15 +832,6 @@
 			buildConfigurations = (
 				BAAC5C9F20EB833800D2F84C /* Debug */,
 				BAAC5CA020EB833800D2F84C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BAAC5CD220EB92F400D2F84C /* Build configuration list for PBXNativeTarget "tygUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BAAC5CD320EB92F400D2F84C /* Debug */,
-				BAAC5CD420EB92F400D2F84C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
