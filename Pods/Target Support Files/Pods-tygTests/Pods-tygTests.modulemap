@@ -1,0 +1,6 @@
+framework module Pods_tygTests {
+  umbrella header "Pods-tygTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
